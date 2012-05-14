@@ -2,7 +2,7 @@
 color NEUC_A = color(200, 0, 0);
 color NEUC_T = color(155, 0, 0);
 color NEUC_C = color(0, 200, 0);
-color NEUC_G = color(0, 155, 0);
+color NEUC_G = color(0, 255, 0);
 
 
 void loadFASTA() {

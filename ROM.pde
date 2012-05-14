@@ -33,7 +33,7 @@ void printHex(int[] romContents, int startByte, int endByte, int posX, int posY)
                 fill(BLACK);
             }
 
-            String lineContents  = hex(i)+"\t:\t"+hex(romContents[i]) + "\t:\t" + nf(romContents1[i], 3) + "\t:\t" + OP_6502[romContents[i]];// + "\t:\t" + char(romContents1[startByte]);
+            String lineContents  = hex(i)+"\t:\t"+hex(romContents[i]) + "\t:\t" + nf(romContents[i], 3) + "\t:\t" + OP_6502[romContents[i]];// + "\t:\t" + char(romContents1[startByte]);
             text(lineContents, x, y);
             y += 14;
         }

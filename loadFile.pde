@@ -47,3 +47,19 @@ int[] loadRawBytes(String file) {
     return r;
 }
 
+
+
+
+void selectAndLoadRawBytes() {
+
+    String loadFilename = selectFile();
+
+    if (loadFilename.equals("-")) {
+    }
+    else {
+        data = loadRawBytes(loadFilename);
+        startByte = 0;
+    }
+}
+
+

@@ -11,8 +11,8 @@ void keyPressed() {
         } 
         else if (keyCode == DOWN) {
             startByte += 8;
-            if (startByte > romContents1.length) {
-                startByte = romContents1.length;
+            if (startByte > data.length) {
+                startByte = data.length;
             }
         }
         else if (keyCode == LEFT) {
@@ -23,8 +23,8 @@ void keyPressed() {
         } 
         else if (keyCode == RIGHT) {
             startByte += 1024;
-            if (startByte > romContents1.length) {
-                startByte = romContents1.length;
+            if (startByte > data.length) {
+                startByte = data.length;
             }
         }
     }
@@ -33,7 +33,7 @@ void keyPressed() {
             startByte = 0;
         }
         else if (key == 'e' || key == 'E') {
-            startByte = romContents1.length;
+            startByte = data.length;
         }
         else if (key == 'j' || key == 'J') {
             startByte -= 1;
@@ -43,8 +43,8 @@ void keyPressed() {
         }     
         else if (key == 'k' || key == 'K') {
             startByte += 1;
-            if (startByte > romContents1.length) {
-                startByte = romContents1.length;
+            if (startByte > data.length) {
+                startByte = data.length;
             }
         }
 
@@ -68,7 +68,7 @@ void keyPressed() {
         else if (key == '9') {
         }        
         else if (key == '0') {
-            startByte = romContents1.length;
+            startByte = data.length;
         }
     }
 }

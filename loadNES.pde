@@ -24,7 +24,7 @@ void selectAndLoadNES() {
     if (loadFilename.equals("-")) {
     }
     else {
-        romContents1 = loadNES(loadFilename);
+        data = loadNES(loadFilename);
         startByte = 0;
     }
 }
