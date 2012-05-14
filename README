@@ -1,5 +1,5 @@
 README:
-	RawView
+	RawLoad
 	
 Prerequisites:
 
@@ -7,7 +7,7 @@ Prerequisites:
 
 Usage:
 
-	Open `rawView.pde' with Processing.
+	Open `rawLoad.pde' with Processing.
 	
 Run:
 	
@@ -23,6 +23,8 @@ Run:
 		k ---- startByte += 1
 		Up --- startByte -= 8
 		Down - startByte += 8
+		Left - startByte -= 1024
+		Right- startByte += 1024
 	
 Extend:
 
