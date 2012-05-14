@@ -1,0 +1,29 @@
+README:
+	RawView
+	
+Prerequisites:
+
+	Processing 1.5: http://processing.org/download/
+
+Usage:
+
+	Open `rawView.pde' with Processing.
+	
+Run:
+	
+	Execute the sketch from the Processing IDE.
+	
+	Click the screen to load a file from your computer.
+	
+	Commands:
+	
+		s ---- startByte = 0
+		e ---- startByte = data.end
+		j ---- startByte -= 1
+		k ---- startByte += 1
+		Up --- startByte -= 8
+		Down - startByte += 8
+	
+Extend:
+
+	Support for any filetype can extend this project to parse files or provide native filetype views.  Create or use existing Processing sketches for application specific code.   
